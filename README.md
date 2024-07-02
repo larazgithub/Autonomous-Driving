@@ -168,8 +168,7 @@ $ roslaunch turtlebot3_autorace_camera intrinsic_camera_calibration.launch
 $ roslaunch turtlebot3_autorace_camera extrinsic_camera_calibration.launch
 ```
 9. Open a new terminal and launch the traffic sign detection node.
-A specific mission for the mission argument must be selected among below.
-intersection, construction, parking, level_crossing, tunnel
+A specific mission for the mission argument must be selected among : intersection, construction, parking, level_crossing, tunnel.
 ```sh
 $ roslaunch turtlebot3_autorace_detect detect_sign.launch mission:=SELECT_MISSION
 ```
@@ -180,3 +179,6 @@ NOTE: Replace the SELECT_MISSION keyword with one of available options in the ab
 $ rqt_image_view
 ```
 11. Select /detect/image_traffic_sign/compressed topic from the drop down list. A screen will display the result of traffic sign detection.
+
+## Contact
+For any inquiries or support, please reach out to [khanlaraib52911@gmail.com].
